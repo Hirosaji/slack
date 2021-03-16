@@ -90,4 +90,10 @@ type Attachment struct {
 	FooterIcon string `json:"footer_icon,omitempty"`
 
 	Ts json.Number `json:"ts,omitempty"`
+
+	FromURL     string `json:"from_url,omitempty"`
+	ServiceName string `json:"service_name,omitempty"`
+	ServiceIcon string `json:"service_icon,omitempty"`
+
+	VideoHTML string `json:"video_html,omitempty"`
 }
